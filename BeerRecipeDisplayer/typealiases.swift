@@ -12,3 +12,4 @@ typealias Percentage = Double
 typealias Kilograms = Double
 typealias Minutes = Double
 typealias LintnerDegree = Double
+typealias CelsiusDegree = Double
