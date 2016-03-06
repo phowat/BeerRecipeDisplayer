@@ -14,3 +14,5 @@ typealias Minutes = Double
 typealias LintnerDegree = Double
 typealias CelsiusDegree = Double
 typealias Liters = Double
+typealias IBUs = Int
+typealias SRMColor = Double
