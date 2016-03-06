@@ -8,10 +8,6 @@
 
 import Foundation
 
-typealias Percentage = Double
-typealias Kilograms = Double
-typealias Minutes = Double
-
 enum HopUse {
     case Boil
     case DryHop
@@ -50,5 +46,4 @@ struct Hop {
     let caryophyllene: Percentage?
     let cohumulone: Percentage?
     let myrcene: Percentage?
-
 }

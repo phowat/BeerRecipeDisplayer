@@ -14,6 +14,8 @@
 		EB30931D1C76BB8100FC2B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30931B1C76BB8100FC2B4B /* LaunchScreen.storyboard */; };
 		EB3093281C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3093271C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift */; };
 		EB84B6AC1C8BA5E000550133 /* Hop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6AB1C8BA5E000550133 /* Hop.swift */; };
+		EB84B6AE1C8BAB9000550133 /* typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6AD1C8BAB9000550133 /* typealiases.swift */; };
+		EB84B6B01C8BABA800550133 /* Fermentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6AF1C8BABA800550133 /* Fermentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		EB3093271C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRecipeDisplayerTests.swift; sourceTree = "<group>"; };
 		EB3093291C76BB8100FC2B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB84B6AB1C8BA5E000550133 /* Hop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hop.swift; sourceTree = "<group>"; };
+		EB84B6AD1C8BAB9000550133 /* typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = typealiases.swift; sourceTree = "<group>"; };
+		EB84B6AF1C8BABA800550133 /* Fermentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fermentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				EB30931B1C76BB8100FC2B4B /* LaunchScreen.storyboard */,
 				EB30931E1C76BB8100FC2B4B /* Info.plist */,
 				EB84B6AB1C8BA5E000550133 /* Hop.swift */,
+				EB84B6AD1C8BAB9000550133 /* typealiases.swift */,
+				EB84B6AF1C8BABA800550133 /* Fermentable.swift */,
 			);
 			path = BeerRecipeDisplayer;
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB84B6AE1C8BAB9000550133 /* typealiases.swift in Sources */,
 				EB3093151C76BB8100FC2B4B /* ViewController.swift in Sources */,
+				EB84B6B01C8BABA800550133 /* Fermentable.swift in Sources */,
 				EB3093131C76BB8100FC2B4B /* AppDelegate.swift in Sources */,
 				EB84B6AC1C8BA5E000550133 /* Hop.swift in Sources */,
 			);
