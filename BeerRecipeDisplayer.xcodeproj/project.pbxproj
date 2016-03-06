@@ -13,6 +13,7 @@
 		EB30931A1C76BB8100FC2B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3093191C76BB8100FC2B4B /* Assets.xcassets */; };
 		EB30931D1C76BB8100FC2B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30931B1C76BB8100FC2B4B /* LaunchScreen.storyboard */; };
 		EB3093281C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3093271C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift */; };
+		EB84B6AC1C8BA5E000550133 /* Hop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6AB1C8BA5E000550133 /* Hop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EB3093231C76BB8100FC2B4B /* BeerRecipeDisplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerRecipeDisplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3093271C76BB8100FC2B4B /* BeerRecipeDisplayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRecipeDisplayerTests.swift; sourceTree = "<group>"; };
 		EB3093291C76BB8100FC2B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB84B6AB1C8BA5E000550133 /* Hop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				EB3093191C76BB8100FC2B4B /* Assets.xcassets */,
 				EB30931B1C76BB8100FC2B4B /* LaunchScreen.storyboard */,
 				EB30931E1C76BB8100FC2B4B /* Info.plist */,
+				EB84B6AB1C8BA5E000550133 /* Hop.swift */,
 			);
 			path = BeerRecipeDisplayer;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				EB3093151C76BB8100FC2B4B /* ViewController.swift in Sources */,
 				EB3093131C76BB8100FC2B4B /* AppDelegate.swift in Sources */,
+				EB84B6AC1C8BA5E000550133 /* Hop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				EB30932E1C76BB8100FC2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB30932F1C76BB8100FC2B4B /* Build configuration list for PBXNativeTarget "BeerRecipeDisplayerTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				EB3093311C76BB8100FC2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
