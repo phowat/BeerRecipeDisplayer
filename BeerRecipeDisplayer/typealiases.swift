@@ -13,3 +13,4 @@ typealias Kilograms = Double
 typealias Minutes = Double
 typealias LintnerDegree = Double
 typealias CelsiusDegree = Double
+typealias Liters = Double

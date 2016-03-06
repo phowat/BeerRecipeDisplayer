@@ -18,6 +18,7 @@
 		EB84B6B01C8BABA800550133 /* Fermentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6AF1C8BABA800550133 /* Fermentable.swift */; };
 		EB84B6B21C8BB2B200550133 /* Yeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6B11C8BB2B200550133 /* Yeast.swift */; };
 		EB84B6B41C8BCD1A00550133 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6B31C8BCD1A00550133 /* Misc.swift */; };
+		EB84B6B61C8BD35A00550133 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84B6B51C8BD35A00550133 /* Water.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EB84B6AF1C8BABA800550133 /* Fermentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fermentable.swift; sourceTree = "<group>"; };
 		EB84B6B11C8BB2B200550133 /* Yeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yeast.swift; sourceTree = "<group>"; };
 		EB84B6B31C8BCD1A00550133 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		EB84B6B51C8BD35A00550133 /* Water.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				EB84B6AF1C8BABA800550133 /* Fermentable.swift */,
 				EB84B6B11C8BB2B200550133 /* Yeast.swift */,
 				EB84B6B31C8BCD1A00550133 /* Misc.swift */,
+				EB84B6B51C8BD35A00550133 /* Water.swift */,
 			);
 			path = BeerRecipeDisplayer;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB84B6AE1C8BAB9000550133 /* typealiases.swift in Sources */,
+				EB84B6B61C8BD35A00550133 /* Water.swift in Sources */,
 				EB3093151C76BB8100FC2B4B /* ViewController.swift in Sources */,
 				EB84B6B21C8BB2B200550133 /* Yeast.swift in Sources */,
 				EB84B6B01C8BABA800550133 /* Fermentable.swift in Sources */,
